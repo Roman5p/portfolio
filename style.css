@@ -565,7 +565,7 @@ footer p {
 
 .permit-lists-1{
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   /* flex: 1; */
 }
 .permit-tile {
@@ -625,6 +625,7 @@ footer p {
   background-color: rgb(255, 252, 252);
   padding: 1rem;
   margin: 1rem;
+  width: 50rem;
   /* border: 1px solid #cccccc; */
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 

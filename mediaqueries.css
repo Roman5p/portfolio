@@ -1,13 +1,10 @@
-
-.section-container-pe{
+.section-container-pe {
   display: flex;
   align-items: center;
 }
 
-
 @media screen and (max-width: 1400px) {
- 
-  #skills-experience{
+  #skills-experience {
     height: 100vh;
   }
   #profile {
@@ -28,13 +25,10 @@
     height: 300px;
   }
 
- .section-container-pe {
+  .section-container-pe {
     display: block;
     height: 200%;
   }
-
- 
- 
 }
 /* @media screen and (max-width: 1301px) {
   .section-container-pe {
@@ -43,12 +37,11 @@
   }
 } */
 
-
 @media screen and (max-width: 1201px) {
-  #skills-experience{
+  #skills-experience {
     height: 120vh;
   }
-  
+
   #desktop-nav {
     display: none;
   }
@@ -66,22 +59,26 @@
     /* background-color: rebeccapurple; */
   }
   #profile,
-  .section-container, .section-container-pe {
+  .section-container,
+  .section-container-pe {
     display: block;
   }
 
-  #profile{
+  #profile {
     height: 60vh;
     display: flex;
   }
   .arrow {
     display: none;
   }
-  section,#permit-experience,
-  .section-container, .section-container-pe {
+  section,
+  #permit-experience,
+  .section-container,
+  .section-container-pe {
     height: fit-content;
   }
-  section, #permit-experience {
+  section,
+  #permit-experience {
     margin: 0 5%;
   }
   .section__pic-container {
@@ -97,45 +94,38 @@
   .about-containers {
     margin-top: 0;
   }
-  #about{
+  #about {
     padding-top: 17vh;
   }
-
- 
 }
 
 @media screen and (max-width: 950px) {
- 
-  .techImage{
+  .techImage {
     width: 0px;
   }
 }
-@media screen  and (max-width: 705px) {
-
-  .techImage{
+@media screen and (max-width: 705px) {
+  .techImage {
     display: none;
   }
-
-  
 
   .education-div {
     display: block;
     justify-content: space-between;
     padding: 1rem 0;
-}
-.education-div p, .education {
-  text-align: center;
-}
-  
+  }
+  .education-div p,
+  .education {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 650px) {
-  .skill-title{
-  
+  .skill-title {
     font-size: 0.8rem;
     margin: 5px;
   }
- 
+
   .permit-lists-1 {
     display: flex;
     justify-content: center;
@@ -144,26 +134,26 @@
 
   .details-container-education p {
     text-align: left;
-}
+  }
   #contact,
   footer {
     height: 40vh;
   }
-  #profile{
+  #profile {
     height: 70vh;
 
     margin-bottom: 0;
   }
 
-  #references{
+  #references {
     height: 80vh;
   }
-.text-container{
-  margin-top: 6vh;
-  padding: 0 1rem;
-/* text-align: justify; */
-}
-  
+  .text-container {
+    margin-top: 6vh;
+    padding: 0 1rem;
+    /* text-align: justify; */
+  }
+
   article {
     font-size: 1rem;
   }
@@ -212,7 +202,7 @@
     font-size: 2rem;
   }
 
-  .title-2{
+  .title-2 {
     font-size: 1.5rem;
     text-align: center;
   }
@@ -222,35 +212,35 @@
     height: 40vh;
   }
 
-  #certifications{
+  #certifications {
     height: 40em;
   }
 
-  .certification-para{
+  .certification-para {
     padding: 1rem 0;
-    
   }
   #Licence-Experience {
     display: flex;
     justify-content: space-between;
   }
-  
-  .licence, .experience, .certification {
-    display: inline-block;
-    width: 100%; 
-  }
 
+  .licence,
+  .experience,
+  .certification {
+    display: inline-block;
+    width: 100%;
+  }
 
   /*  */
   .education-div {
     display: block;
     justify-content: space-between;
     padding: 1rem 0;
-}
-.education-div p, .education {
-  text-align: center;
-}
-  
+  }
+  .education-div p,
+  .education {
+    text-align: center;
+  }
 }
 @media screen and (max-width: 600px) {
   .section__pic-container-2 {
@@ -260,88 +250,111 @@
     display: flex;
     justify-content: center;
   }
-  
 }
 @media screen and (max-width: 500px) {
- 
-  .about-pic{
-    height: 200px
+  .about-pic {
+    height: 200px;
   }
 
- .job{
-  display: inline;
- }
+  .job {
+    display: inline;
+  }
 }
 
 @media screen and (max-width: 490px) {
   .permit-lists-1 {
     flex-direction: column;
-   align-items: center;
+    align-items: center;
+  }
 
-}
-
-.permit-tile {
-  border: 1px solid #B0B0B0;
-  padding: 1rem;
-  margin: 1rem;
-  border-radius: 1rem;
-  min-width: 10rem;
-  min-height: 6rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
- 
+  .permit-tile {
+    border: 1px solid #b0b0b0;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    min-width: 10rem;
+    min-height: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 @media screen and (max-width: 460px) {
-  
-  .about-pic{
-    height: 200px
-
+  .about-pic {
+    height: 200px;
   }
 }
 @media screen and (max-width: 450px) {
-  .section__pic-container-2 {
-    width: auto;
-    /* background-color: rebeccapurple; */
-    height: 30vw;
-    display: flex;
-    justify-content: center;
+  .exp-div {
+    width: 100%;
+    padding: 0.5rem;
   }
-  .about-pic{
-    height: 150px
 
+  .job-title {
+    flex-direction: column; /* Stack job title and duration vertically */
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .job-roles::before {
+    height: calc(100% - 20px); /* Adjust timeline height */
+  }
+
+  .job-indicator {
+    margin-top: 0; /* Reset margin for vertical stacking */
+  }
+
+  .job-place {
+    font-size: 0.85rem;
+  }
+
+  .job-role,
+  .job-reponsibilities {
+    font-size: 0.75rem;
+  }
+
+  .job-duration {
+    font-size: 0.65rem;
+  }
+
+  .job-explaination {
+    font-size: 0.65rem;
+  }
+
+  .date {
+    font-size: 0.75rem;
   }
 }
+
 @media screen and (max-width: 356px) {
-  .section__pic-container-2 {
-    width: auto;
-    /* background-color: rebeccapurple; */
-    height: 35vw;
-    display: flex;
-    justify-content: center;
-  }
-  .about-pic{
-    height: 150px
-
+  .exp-div {
+    padding: 0.4rem;
   }
 
-  .certification-title{
+  .job-place {
     font-size: 0.8rem;
-  
-    
   }
- 
-  
 
-  .certification-link{
-    font-size: 0.6rem;
-    color: cornflowerblue;
-    /* font-size: 0.7rem; */
+  .job-role,
+  .job-reponsibilities {
+    font-size: 0.7rem;
   }
-  .certi-individual{
-    padding: 5px 0;
+
+  .job-duration {
+    font-size: 0.6rem;
+  }
+
+  .job-explaination {
+    font-size: 0.6rem;
+  }
+
+  .date {
+    font-size: 0.7rem;
+  }
+
+  .job-indicator {
+    width: 8px;
+    height: 8px; /* Even smaller indicator */
   }
 }
-
